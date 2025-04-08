@@ -1,0 +1,115 @@
+/* header and separator*/
+
+header {
+    display: grid;
+    grid-template-columns: minmax(90px,178px) 1fr;
+    gap: 16px;
+    text-align: right;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: #017991;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#buttonBook1 {
+    background-color: #00996b;
+}
+
+.separator {
+    background-color: #017991;
+    height: 6px;
+}
+
+/* hero */
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+main section img {
+    max-width: 650px;
+    max-height: 468px;
+}
+
+/* hero aside */
+
+aside {
+    text-align: center;
+}
+
+aside h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+}
+
+#hero-connecting {
+    color: #00996b;
+}
+
+#hero-communities {
+    color: #017991;
+}
+
+aside p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero-section button {
+    padding: 16px;
+}
+
+#buttonRoute2 {
+    color: #014c91;
+    background-color: #82eaff;
+}
+
+#buttonBook2 {
+    background-color: #195f98;
+}
+
+/* hero image */
+
+
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    gap: 32px;
+    color: #FFFFFF;
+    background-color: #017991;
+    font-family: 'Inter', sans-serif;
+}
+
+address a {
+    font-style: normal;
+}
+
+#footerLogo {
+    width: 93px;
+    height: 69px;
+}
+
+#footerSiteMap {
+    display: block;
+    text-align: center;
+}
+
+#footerSiteMap a {
+    color: white;
+    text-decoration: none;
+}
